@@ -1,11 +1,12 @@
 {% extends "layer.html" %}
 
+{% load static %}
+
+
 {% block title %}
-{{ title }}
+    Students
 {% endblock %}
 
 {% block content %}
-
-This is the home
-
+    {% include 'iter_students.html' %}
 {% endblock %}
